@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    height:100vh;
+    background-color:#662d91;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+.container{
+    border:1px solid #000;
+    padding:40px;
+    background:#fff
+}
+
+p{
+    color: green;
+}
+
+#addButton{
+    background-color: #4CAF50;
+    color: white;
+}
+.product-list{
+    margin-top:10px;
+}
+.product-item{
+    display:flex;
+    justify-content:space-between;
+    background:#ccc;
+    margin-bottom:5px;
+}

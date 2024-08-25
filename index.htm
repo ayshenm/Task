@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <input id="productName" type="text" placeholder="Məhsulun adı"/>
+            <input id="productPrice" type="number" placeholder="Qiyməti"/>
+            <button id="addButton" onclick="addProduct()">Əlavə et</button>
+        </div>
+        <div class="product-list">
+            <ul id="productList"></ul>
+        </div>
+        <div>
+            <p>Ümumi məhsul sayı:<span id="totalCount">0</span></p>
+            <p>Məhsulların toplam dəyəri:<span id="totalPrice">0</span></p>
+        </div>
+    </div>
+
+<script src="./index.js"></script>    
+</body>
+</html>
